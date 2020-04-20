@@ -13,7 +13,7 @@ namespace Library.Test
 
         // Test 1.
 
-        public void Test1()  
+        public void DateToOneFormat_DateWithSlash_InvertedDateWithDash()  
         {   
             string original = "10/11/1977";
             string prueba = "1977-11-10";
@@ -24,7 +24,7 @@ namespace Library.Test
         [Test]
 
         // Test 2 con TDD.
-        public void Test2() 
+        public void DateToAnotherFormat_DateWithSlash_DateWithDash() 
         {   
             string original = "10/11/1977";
             string prueba = "10-11-1977";
