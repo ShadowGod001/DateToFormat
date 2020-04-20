@@ -15,7 +15,6 @@ namespace Library.Test
 
         public void Test1()  
         {   
-
             string original = "10/11/1977";
             string prueba = "1977-11-10";
 
@@ -27,7 +26,6 @@ namespace Library.Test
         // Test 2 con TDD.
         public void Test2() 
         {   
-
             string original = "10/11/1977";
             string prueba = "10-11-1977";
 
